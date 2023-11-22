@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
+import Logo from "../../assests/images/logo.png"
 import "./header.css";
 
 const navLinks = [
@@ -36,9 +37,7 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
-            </h2>
+              <img src={Logo} alt="Gomindz Inc" />
           </div>
 
           <div className="nav d-flex align-items-center gap-5">
