@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/.github.io/Gomindz-Inc/static/css/main.9e0bdd92.css",
+    "main.js": "/.github.io/Gomindz-Inc/static/js/main.09aa50ce.js",
+    "static/media/remixicon.svg?t=1590207869815": "/.github.io/Gomindz-Inc/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/.github.io/Gomindz-Inc/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/.github.io/Gomindz-Inc/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/.github.io/Gomindz-Inc/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/hero-img1.png": "/.github.io/Gomindz-Inc/static/media/hero-img1.12a6ce0ca7090bbe2a38.png",
+    "static/media/remixicon.woff2?t=1590207869815": "/.github.io/Gomindz-Inc/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/testimonial01.png": "/.github.io/Gomindz-Inc/static/media/testimonial01.ef527bf36f2a27625c23.png",
+    "static/media/about-us.png": "/.github.io/Gomindz-Inc/static/media/about-us.7cee11852f1eba53f13f.png",
+    "static/media/web-design.png": "/.github.io/Gomindz-Inc/static/media/web-design.9071c3ef125375e2469a.png",
+    "static/media/why-choose-us.png": "/.github.io/Gomindz-Inc/static/media/why-choose-us.5ec7e3b24c1cb791bf4c.png",
+    "static/media/seo.png": "/.github.io/Gomindz-Inc/static/media/seo.b323da636359c745b6dc.png",
+    "static/media/web-development.png": "/.github.io/Gomindz-Inc/static/media/web-development.91ce53388df7bc88002c.png",
+    "static/media/kids-learning.png": "/.github.io/Gomindz-Inc/static/media/kids-learning.fcd258b6f9310b2dd2af.png",
+    "static/media/ui-ux.png": "/.github.io/Gomindz-Inc/static/media/ui-ux.0366b465b35da2e796bb.png",
+    "static/media/logo.png": "/.github.io/Gomindz-Inc/static/media/logo.c4c70fd05a6a917831b1.png",
+    "static/media/graphics-design.png": "/.github.io/Gomindz-Inc/static/media/graphics-design.08c25c6b6b3ecac266d2.png",
+    "static/media/slick.svg": "/.github.io/Gomindz-Inc/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/.github.io/Gomindz-Inc/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/.github.io/Gomindz-Inc/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/.github.io/Gomindz-Inc/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/.github.io/Gomindz-Inc/index.html",
+    "main.9e0bdd92.css.map": "/.github.io/Gomindz-Inc/static/css/main.9e0bdd92.css.map",
+    "main.09aa50ce.js.map": "/.github.io/Gomindz-Inc/static/js/main.09aa50ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0bdd92.css",
+    "static/js/main.09aa50ce.js"
+  ]
+}
