@@ -4,14 +4,14 @@
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: -1;
 }
 
 .free__btn {
   position: absolute;
   bottom: -20px;
   right: 20px;
-  z-index: 999999;
+  /* z-index: -1; */
   padding: 4px 25px !important;
   font-size: 0.8rem;
 }

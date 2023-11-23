@@ -42,6 +42,8 @@ const freeCourseData = [
   },
 ];
 
+
+
 const FreeCourse = () => {
   return (
     <section>

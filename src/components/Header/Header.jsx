@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { Container } from "reactstrap";
 import Logo from "../../assests/images/logo.png"
 import "./header.css";
@@ -28,6 +28,36 @@ const navLinks = [
 ];
 
 const Header = () => {
+
+  const [isSticky, setIsSticky] = useState(false);
+  const headerRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > headerRef.current.offsetTop) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isSticky) {
+      headerRef.current.classList.add("sticky");
+    } else {
+      headerRef.current.classList.remove("sticky");
+    }
+  }, [isSticky]);
+
+
+
   const menuRef = useRef();
 
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
@@ -35,9 +65,12 @@ const Header = () => {
   return (
     <header className="header">
       <Container>
-        <div className="navigation d-flex align-items-center justify-content-between">
+        <div
+          ref={headerRef}
+          className="navigation d-flex align-items-center justify-content-between"
+        >
           <div className="logo">
-              <img src={Logo} alt="Gomindz Inc" />
+            <img src={Logo} alt="Gomindz Inc" />
           </div>
 
           <div className="nav d-flex align-items-center gap-5">

@@ -37,7 +37,7 @@ const ChooseUs = () => {
                   height="350px"
                 />
               ) : (
-                <img src={chooseImg} alt="" className="w-100" />
+                <img src={chooseImg} alt="" className="w-100 " />
               )}
 
               {!showVideo && (
