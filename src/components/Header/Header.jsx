@@ -86,7 +86,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +88 0123456789
+                <i class="ri-phone-line"></i> +220 3338111
               </p>
             </div>
           </div>

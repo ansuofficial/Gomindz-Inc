@@ -24,3 +24,15 @@
   font-weight: 600;
   line-height: 2rem;
 }
+
+.fc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}

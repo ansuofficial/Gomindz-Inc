@@ -10,17 +10,20 @@ const FreeCourseCard = (props) => {
         <button className="btn free__btn">Free</button>
       </div>
 
-      <div className="free__course__details">
+      <div className="free__course__details fcc">
         <h6>{title}</h6>
 
-        <div className=" d-flex align-items-center gap-5">
-          <span className=" d-flex align-items-center gap-2">
-            <i class="ri-user-line"></i> {students}k
-          </span>
-
-          <span className=" d-flex align-items-center gap-2">
-            <i class="ri-star-fill"></i> {rating}k
-          </span>
+        <div className="fc">
+          <div>
+            <span className=" d-flex align-items-center gap-2">
+              <i class="ri-user-line"></i> {students}k
+            </span>
+          </div>
+          <div>
+            <span className=" d-flex align-items-center gap-2">
+              <i class="ri-star-fill"></i> {rating}k
+            </span>
+          </div>
         </div>
       </div>
     </div>
