@@ -52,7 +52,7 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-pantone-line"></i> Ecomansa.
             </h2>
 
             <div className="follows">
@@ -104,7 +104,7 @@ const Footer = () => {
             <ListGroup className="link__list">
               {footerInfoLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
-                  {" "}
+                  {""}
                   <a href={item.url}>{item.display}</a>
                 </ListGroupItem>
               ))}

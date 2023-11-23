@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ansuofficial/.github.io/Gomindz-Inc",
   "name": "ecommerce-website-1",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +19,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "react-scripts": "^5.0.1"
   }
 }

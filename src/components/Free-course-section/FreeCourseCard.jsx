@@ -19,11 +19,6 @@ const FreeCourseCard = (props) => {
               <i class="ri-user-line"></i> {students}k
             </span>
           </div>
-          <div>
-            <span className=" d-flex align-items-center gap-2">
-              <i class="ri-star-fill"></i> {rating}k
-            </span>
-          </div>
         </div>
       </div>
     </div>
