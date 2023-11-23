@@ -35,3 +35,22 @@
 .course__top__left h2 {
   font-weight: 600;
 }
+.lr {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.cr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+  /* border: 2px solid slategray; */
+
+}
+
+.re {
+  display: flex;
+  justify-content: space-between;
+}
