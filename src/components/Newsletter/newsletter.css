@@ -1,5 +1,5 @@
 .newsletter {
-  background: #19489b;
+  background: rgba(55, 55, 172, 0.8);
 
   padding: 60px;
   border-radius: 15px;
@@ -10,10 +10,20 @@
 }
 .subscribe input {
   border: none;
+  display: block;
+  margin: auto;
   outline: none;
+  padding: .75rem 1rem;
+  border-radius: 4rem ;
+  width: 50%;
 }
 
-.subscribe {
+.subscribe button {
+  margin-top: 2rem;
+}
+
+
+/* .subscribe {
   padding: 7px 10px;
   background: #fff;
   width: 45%;
@@ -22,4 +32,4 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */

@@ -36,7 +36,38 @@
 }
 
 .play__icon i {
-  color: #17bf9e;
+  color: #19489b;
   font-size: 2rem;
   padding: 10px;
+}
+
+
+@media screen and (max-width: 990px) {
+  .play__icon {
+    /* background: red; */
+    top: 7rem;
+  }
+  
+  .play__icon i {
+
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .play__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  z-index: 7777;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 }

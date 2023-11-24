@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
+// import './company-section.css'
 const Company = () => {
   return (
     <section>
-      <Container>
-        <Row>
+      <Container className="cc">
+        <Row className="cs">
           <Col lg="2" md="3" sm="4" xs="6">
             <h3 className=" d-flex align-items-center gap-1">
               <i class="ri-vimeo-line"></i> Vimeo
