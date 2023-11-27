@@ -17,7 +17,7 @@ const AboutUs = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <div className="about__content">
+            <div className="about__content au">
               <h2>About Us</h2>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
