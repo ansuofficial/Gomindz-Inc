@@ -5,6 +5,7 @@ import courseImg2 from "../../assests/images/graphics-design.png";
 import courseImg3 from "../../assests/images/ui-ux.png";
 import "./courses.css";
 import CourseCard from "./CourseCard";
+import {Button} from "./button"
 
 const coursesData = [
   {
@@ -41,8 +42,8 @@ const Courses = () => {
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
-            <div className="course__top d-flex justify-content-between align-items-center">
-              <div className="course__top__left w-50">
+            <div className="course__top cc">
+              <div className="course__top__left ct">
                 <h2>Our Popular Courses</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
@@ -51,7 +52,7 @@ const Courses = () => {
                 </p>
               </div>
 
-              <div className="w-50 text-end">
+              <div className="w-50 text-end cb">
                 <button className="btn">See All</button>
               </div>
             </div>
@@ -62,6 +63,9 @@ const Courses = () => {
             </Col>
           ))}
         </Row>
+              <div>
+                <Button/>
+              </div>
       </Container>
     </section>
   );
