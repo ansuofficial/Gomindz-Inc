@@ -28,7 +28,7 @@ const Testimonials = () => {
               <div className="testimonial__content w-50">
                 <h2 className="mb-4">Our Students Voice</h2>
 
-                <Slider {...settings}>
+                <Slider {...settings} className="s">
                   <div>
                     <div className="single__testimonial">
                       <h6 className="mb-3 fw-bold">

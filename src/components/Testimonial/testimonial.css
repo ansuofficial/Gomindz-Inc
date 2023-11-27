@@ -2,8 +2,8 @@
   font-weight: 600;
 }
 
-.z-in {
-  position: relative;
-  z-index:  -1;
-  background: red;
+.s {
+  /* background: lavenderblush; */
+  padding:  0;
+  overflow: hidden;
 }

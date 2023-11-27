@@ -50,7 +50,85 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="3" md="6" className="mb-4">
+          <div className="footer-container">
+            <div className="footer-content">
+              <div className="h">
+                <div>
+                  <h2 className=" d-flex align-items-center gap-1">
+                    <i class="ri-pantone-line"></i> Ecomansa.
+                  </h2>
+                  <div className="follows">
+                    <p className="mb-0">Follow us on social media</p>
+                    <span>
+                      {" "}
+                      <a href="facebook.com">
+                        <i class="ri-facebook-line"></i>
+                      </a>
+                    </span>
+
+                    <span>
+                      {" "}
+                      <a href="facebook.com">
+                        <i class="ri-instagram-line"></i>
+                      </a>
+                    </span>
+
+                    <span>
+                      {" "}
+                      <a href="facebook.com">
+                        <i class="ri-linkedin-line"></i>
+                      </a>
+                    </span>
+
+                    <span>
+                      {" "}
+                      <a href="facebook.com">
+                        <i class="ri-twitter-line"></i>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="footer-text">
+                <div>
+                  <h6 className="fw-bold">Explore</h6>
+                  <ListGroup className="link__list">
+                    {footerQuickLinks.map((item, index) => (
+                      <ListGroupItem
+                        key={index}
+                        className="border-0 ps-0 link__item"
+                      >
+                        {" "}
+                        <a href={item.url}>{item.display}</a>
+                      </ListGroupItem>
+                    ))}
+                  </ListGroup>
+                </div>
+                <div>
+                  <h6 className="fw-bold">Information</h6>
+                  <ListGroup className="link__list">
+                    {footerInfoLinks.map((item, index) => (
+                      <ListGroupItem
+                        key={index}
+                        className="border-0 ps-0 link__item"
+                      >
+                        {""}
+                        <a href={item.url}>{item.display}</a>
+                      </ListGroupItem>
+                    ))}
+                  </ListGroup>
+                </div>
+                <div>
+                  <h6 className="fw-bold">Get in Touch</h6>
+
+                  <p>Address: Sylhet, Bangladesh</p>
+                  <p> Phone: +88 0123456789 </p>
+                  <p>Email: example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <Col lg="3" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
               <i class="ri-pantone-line"></i> Ecomansa.
             </h2>
@@ -117,7 +195,7 @@ const Footer = () => {
             <p>Address: Sylhet, Bangladesh</p>
             <p> Phone: +88 0123456789 </p>
             <p>Email: example@gmail.com</p>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>
