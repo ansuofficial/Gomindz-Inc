@@ -15,13 +15,21 @@ const Newsletter = () => {
           <div>
             <input type="text" placeholder="Email" />
           </div>
+          <div>
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div>
+            <textarea
+              placeholder="Message"
+            ></textarea>
+          </div>
         </div>
       </form>
     </section>
   );
 };
 
-export default Newsletter
+export default Newsletter;
 
 // import { Container, Row, Col } from "reactstrap";
 

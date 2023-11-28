@@ -1,0 +1,14 @@
+form {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input, textarea {
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 1px solid slategrey;
+  outline: none;
+  padding: 1rem 0;
+}
