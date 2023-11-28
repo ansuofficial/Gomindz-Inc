@@ -19,7 +19,7 @@ const navLinks = [
   },
   {
     display: "Pages",
-    url: "/pages",
+    url: "#",
   },
   {
     display: "Blog",

@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { Element } from "react-scroll";
 import Header from "../components/Header/Header";
 import HeroSection from "../components/Hero-Section/HeroSection";
 import CompanySection from "../components/Company-section/Company";
@@ -16,8 +17,10 @@ import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
-    <Fragment>
-      <Header />
+    <div>
+      <Element name="header">
+        <Header />
+      </Element>
       <HeroSection />
       <CompanySection />
       <AboutUs />
@@ -28,7 +31,7 @@ const Home = () => {
       <Testimonials />
       <Newsletter />
       <Footer />
-    </Fragment>
+    </div>
   );
 };
 
