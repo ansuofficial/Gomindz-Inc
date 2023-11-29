@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gomindz-Inc/static/css/main.7685ef3b.css",
-    "main.js": "/Gomindz-Inc/static/js/main.a59a1d35.js",
+    "main.css": "/Gomindz-Inc/static/css/main.08dfb494.css",
+    "main.js": "/Gomindz-Inc/static/js/main.6aef9bc7.js",
     "static/media/remixicon.svg?t=1590207869815": "/Gomindz-Inc/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/remixicon.eot?t=1590207869815": "/Gomindz-Inc/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/Gomindz-Inc/static/media/remixicon.f2616f597cf98f38d234.ttf",
@@ -23,11 +23,11 @@
     "static/media/slick.ttf": "/Gomindz-Inc/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Gomindz-Inc/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Gomindz-Inc/index.html",
-    "main.7685ef3b.css.map": "/Gomindz-Inc/static/css/main.7685ef3b.css.map",
-    "main.a59a1d35.js.map": "/Gomindz-Inc/static/js/main.a59a1d35.js.map"
+    "main.08dfb494.css.map": "/Gomindz-Inc/static/css/main.08dfb494.css.map",
+    "main.6aef9bc7.js.map": "/Gomindz-Inc/static/js/main.6aef9bc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7685ef3b.css",
-    "static/js/main.a59a1d35.js"
+    "static/css/main.08dfb494.css",
+    "static/js/main.6aef9bc7.js"
   ]
 }
