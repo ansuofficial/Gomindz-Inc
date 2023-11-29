@@ -23,3 +23,16 @@ form input, textarea {
   justify-content: center;
   padding: 2rem 0;
 }
+
+@media screen and (max-width: 462px) {
+  .wrapper {
+  /* border: 1px solid slategrey; */
+  box-shadow: 1px 1px 5px slategrey;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+}
