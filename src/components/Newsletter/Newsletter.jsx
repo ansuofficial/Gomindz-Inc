@@ -1,7 +1,8 @@
 import React from "react";
 import "./newsletter.css";
-
 const Newsletter = () => {
+
+
   return (
     <section>
       <form>
@@ -24,13 +25,13 @@ const Newsletter = () => {
             ></textarea>
           </div>
           <div className="sub">
-            <button>Submit</button>
+            <button type="button">Submit</button>
           </div>
         </div>
       </form>
     </section>
   );
-};
+  }
 
 export default Newsletter;
 
