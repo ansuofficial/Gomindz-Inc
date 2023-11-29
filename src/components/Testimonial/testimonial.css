@@ -1,3 +1,7 @@
 .testimonial__content h2 {
   font-weight: 600;
 }
+
+section {
+  overflow: hidden;
+}
