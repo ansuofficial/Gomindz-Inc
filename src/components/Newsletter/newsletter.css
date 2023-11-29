@@ -36,3 +36,22 @@ form input, textarea {
   padding: 2rem 0;
 }
 }
+
+.sub {
+  margin: 1rem 0;
+}
+
+.sub button {
+  border: none;
+  background: #19489b;
+  border-radius: 2rem;
+  color: white;
+  outline: none;
+  padding: .7rem 1.5rem;
+}
+
+.sub button:hover {
+  background: #153e85;
+  color: #dbdbec;
+
+}

@@ -23,6 +23,9 @@ const Newsletter = () => {
               placeholder="Message"
             ></textarea>
           </div>
+          <div className="sub">
+            <button>Submit</button>
+          </div>
         </div>
       </form>
     </section>
