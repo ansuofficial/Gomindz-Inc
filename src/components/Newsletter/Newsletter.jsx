@@ -5,7 +5,7 @@ const Newsletter = () => {
   return (
     <section>
       <form>
-        <div>
+        <div className="wrapper">
           <div>
             <h1>Get in touch</h1>
           </div>
